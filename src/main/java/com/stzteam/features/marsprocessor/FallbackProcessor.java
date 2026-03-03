@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Set;
 
 @AutoService(Processor.class)
-@SupportedAnnotationTypes("mars.src.processor.Fallback")
+@SupportedAnnotationTypes("com.stzteam.features.marsprocessor.Fallback")
 @SupportedSourceVersion(SourceVersion.RELEASE_17)
 public class FallbackProcessor extends AbstractProcessor {
 

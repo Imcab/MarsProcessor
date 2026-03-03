@@ -14,7 +14,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @AutoService(Processor.class)
-@SupportedAnnotationTypes("mars.src.processor.RequestFactory")
+@SupportedAnnotationTypes("com.stzteam.features.marsprocessor.RequestFactory")
 @SupportedSourceVersion(SourceVersion.RELEASE_17)
 public class RequestFactoryProcessor extends AbstractProcessor {
 
