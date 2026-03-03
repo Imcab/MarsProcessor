@@ -1,20 +1,20 @@
 {
-  "featureId": "TemplateFeature",
-  "name": "Nombre de tu Feature",
+  "featureId": "MarsProcessor",
+  "name": "Mars Processor Feature",
   "version": "1.0.0",
-  "groupId": "com.tu.equipo",
-  "author": "Tu Equipo",
-  "description": "Descripción de lo que hace tu nodo.",
+  "groupId": "com.stzteam.features.marsprocessor",
+  "author": "STZ-Robotics",
+  "description": "Feature to process Mars environment data.",
   "marsCoreRequired": ">=1.6.0",
   "mavenUrls": [
-    "https://TU-USUARIO.github.io/TU-REPO/maven/"
+    "https://imcab.github.io/MarsProcessor/maven/"
   ],
   "javaDependencies": [
     {
-      "groupId": "com.tu.equipo",
-      "artifactId": "TemplateFeature",
+      "groupId": "com.stzteam.features.marsprocessor",
+      "artifactId": "MarsProcessor",
       "version": "1.0.0",
-      "isProcessor": false
+      "isProcessor": true
     }
   ]
 }

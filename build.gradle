@@ -38,6 +38,10 @@ dependencies {
 
     implementation 'com.stzteam.forgemini:ForgeMini:1.1.1'
     implementation 'com.stzteam.mars:Mars:1.6.0' 
+
+    implementation 'com.squareup:javapoet:1.13.0'
+    compileOnly 'com.google.auto.service:auto-service-annotations:1.1.1'
+    annotationProcessor 'com.google.auto.service:auto-service:1.1.1' 
 }
 
 publishing {
