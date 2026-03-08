@@ -80,8 +80,8 @@ public class CommandCreationProcessor extends AbstractProcessor {
         // Referencias de clases externas para JavaPoet
         ClassName commandClass = ClassName.get("edu.wpi.first.wpilibj2.command", "Command");
         ClassName supplierClass = ClassName.get("java.util.function", "Supplier");
-        ClassName requestBaseClass = ClassName.get("com.stzteam.mars.requests", "Request");
         ClassName factoryClass = ClassName.get(packageName, interfaceName + "Factory");
+        TypeName specificRequestType = TypeName.get(requestInterface.asType());
 
         // Empezamos a construir la Interfaz
         TypeSpec.Builder autoCommandsBuilder = TypeSpec.interfaceBuilder(autoCommandsName)
@@ -91,7 +91,8 @@ public class CommandCreationProcessor extends AbstractProcessor {
         MethodSpec setControlMethod = MethodSpec.methodBuilder("setControl")
                 .addModifiers(Modifier.PUBLIC, Modifier.ABSTRACT)
                 .returns(commandClass)
-                .addParameter(ParameterizedTypeName.get(supplierClass, requestBaseClass), "requestSupplier")
+                // ¡AQUÍ ESTÁ LA MAGIA! Pasamos el specificRequestType en vez de la clase base
+                .addParameter(ParameterizedTypeName.get(supplierClass, specificRequestType), "request")
                 .build();
         autoCommandsBuilder.addMethod(setControlMethod);
 
