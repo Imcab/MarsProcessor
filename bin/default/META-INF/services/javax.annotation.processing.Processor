@@ -1,2 +1,3 @@
+com.stzteam.features.marsprocessor.CommandCreationProcessor
 com.stzteam.features.marsprocessor.FallbackProcessor
 com.stzteam.features.marsprocessor.RequestFactoryProcessor
