@@ -3,7 +3,7 @@
   "component": {
     "group": "com.stzteam.features.marsprocessor",
     "module": "MarsProcessor",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "MarsProcessor-1.0.4.jar",
-          "url": "MarsProcessor-1.0.4.jar",
-          "size": 17103,
-          "sha512": "01041b0501b221e8ecec0259515be14da6187e0da01a2e3b8c9a3fccf8902b12850c0a77d10c602e77d2829e86c68f776896445fdf3dd961ed489fa6133c4bf1",
-          "sha256": "a95d62b22f361ae326fe9224c5cac0789ef1dc5cf71287ca934d05ff0739fd07",
-          "sha1": "88bd6984d4fa98ffdb28cf2421a8da1d7c60ccbe",
-          "md5": "74ea2aa82f284be96f8ec9869351b500"
+          "name": "MarsProcessor-1.0.5.jar",
+          "url": "MarsProcessor-1.0.5.jar",
+          "size": 17088,
+          "sha512": "7a518ace3c14c3cbb91f825513742f0b471f2135cdcf8bedfea7395b85531a7a5ded95c54185a84eff11d96f5d1a154aaa7be78e64c874377732ec7bbbe4bc1f",
+          "sha256": "0cc3087c48fcada361da4c74a96660ef5b150569664a95f1eee1b9268b87d902",
+          "sha1": "a515d9e1c8ad6994b1ccbc2bb6931476f5ea5c53",
+          "md5": "371b7f61584ca668b8ea89094868bc4e"
         }
       ]
     },
@@ -195,13 +195,13 @@
       ],
       "files": [
         {
-          "name": "MarsProcessor-1.0.4.jar",
-          "url": "MarsProcessor-1.0.4.jar",
-          "size": 17103,
-          "sha512": "01041b0501b221e8ecec0259515be14da6187e0da01a2e3b8c9a3fccf8902b12850c0a77d10c602e77d2829e86c68f776896445fdf3dd961ed489fa6133c4bf1",
-          "sha256": "a95d62b22f361ae326fe9224c5cac0789ef1dc5cf71287ca934d05ff0739fd07",
-          "sha1": "88bd6984d4fa98ffdb28cf2421a8da1d7c60ccbe",
-          "md5": "74ea2aa82f284be96f8ec9869351b500"
+          "name": "MarsProcessor-1.0.5.jar",
+          "url": "MarsProcessor-1.0.5.jar",
+          "size": 17088,
+          "sha512": "7a518ace3c14c3cbb91f825513742f0b471f2135cdcf8bedfea7395b85531a7a5ded95c54185a84eff11d96f5d1a154aaa7be78e64c874377732ec7bbbe4bc1f",
+          "sha256": "0cc3087c48fcada361da4c74a96660ef5b150569664a95f1eee1b9268b87d902",
+          "sha1": "a515d9e1c8ad6994b1ccbc2bb6931476f5ea5c53",
+          "md5": "371b7f61584ca668b8ea89094868bc4e"
         }
       ]
     }
