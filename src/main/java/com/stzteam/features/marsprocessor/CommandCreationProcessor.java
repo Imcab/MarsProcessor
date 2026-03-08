@@ -97,7 +97,9 @@ public class CommandCreationProcessor extends AbstractProcessor {
 
         // Generamos los métodos por cada anotación
         for (CommandInfo info : commands) {
-            String factoryMethodName = info.builderClass.getSimpleName().toString(); // ej. "setAngle"
+            String className = info.builderClass.getSimpleName().toString();
+
+            String factoryMethodName = className.substring(0, 1).toLowerCase() + className.substring(1);
             
             MethodSpec.Builder cmdMethod = MethodSpec.methodBuilder(info.annotation.name())
                     .addModifiers(Modifier.PUBLIC, Modifier.DEFAULT)
