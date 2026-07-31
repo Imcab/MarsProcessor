@@ -10,6 +10,7 @@
   "iconUrl": "https://raw.githubusercontent.com/Imcab/MarsProcessor/main/featureIcon/icon.png",
   "docsUrl": "",
 
+  "wpilibYear": "2026",
   "marsCoreRequired": ">=1.6.0",
   "forgeMiniRequired": ">=1.1.0",
   "mavenUrls": [
