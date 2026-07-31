@@ -28,10 +28,10 @@
           "name": "MarsProcessor-1.0.6.jar",
           "url": "MarsProcessor-1.0.6.jar",
           "size": 17088,
-          "sha512": "b3c31be4a40dd9de82fcf15616717e10b2ac3c47c6c86c32a8a94f7dda5d07d7374295ca588aa0fc6114942d33dd9d8054e9755f13853aafab642c9b2bcebb68",
-          "sha256": "9b1f3da96a507f5c3d2cca155ecb3eb92c1c8581e7f528666b610b0c9c43c713",
-          "sha1": "ce3b3aeeb6b3e16934f21310984b73c8e816484f",
-          "md5": "90b7dc0452df080926e3709e4ba47f43"
+          "sha512": "b3ca9e5f18819f747082d63606a26dcecf0ffe3664d9c058faf55e90192942218679e251096c869015d0a317dc604810a020391a311af3622e02e0d3885742d5",
+          "sha256": "ff194a94f122640f8440bf2d3642f5fe63796bb5b1c3d610964198fd443385df",
+          "sha1": "a52f09500bb1be71d9a75ed4ee6948cefb84b429",
+          "md5": "b5804989306e1c5cba5e2fe2865aaa26"
         }
       ]
     },
@@ -198,10 +198,10 @@
           "name": "MarsProcessor-1.0.6.jar",
           "url": "MarsProcessor-1.0.6.jar",
           "size": 17088,
-          "sha512": "b3c31be4a40dd9de82fcf15616717e10b2ac3c47c6c86c32a8a94f7dda5d07d7374295ca588aa0fc6114942d33dd9d8054e9755f13853aafab642c9b2bcebb68",
-          "sha256": "9b1f3da96a507f5c3d2cca155ecb3eb92c1c8581e7f528666b610b0c9c43c713",
-          "sha1": "ce3b3aeeb6b3e16934f21310984b73c8e816484f",
-          "md5": "90b7dc0452df080926e3709e4ba47f43"
+          "sha512": "b3ca9e5f18819f747082d63606a26dcecf0ffe3664d9c058faf55e90192942218679e251096c869015d0a317dc604810a020391a311af3622e02e0d3885742d5",
+          "sha256": "ff194a94f122640f8440bf2d3642f5fe63796bb5b1c3d610964198fd443385df",
+          "sha1": "a52f09500bb1be71d9a75ed4ee6948cefb84b429",
+          "md5": "b5804989306e1c5cba5e2fe2865aaa26"
         }
       ]
     }
