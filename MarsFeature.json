@@ -1,7 +1,7 @@
 {
   "featureId": "MarsProcessor",
   "name": "Mars Processor Feature",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "groupId": "com.stzteam.features.marsprocessor",
   "author": "STZ-Robotics",
 
@@ -11,6 +11,7 @@
   "docsUrl": "",
 
   "marsCoreRequired": ">=1.6.0",
+  "forgeMiniRequired": ">=1.1.0",
   "mavenUrls": [
     "https://imcab.github.io/MarsProcessor/maven/"
   ],
@@ -18,7 +19,7 @@
     {
       "groupId": "com.stzteam.features.marsprocessor",
       "artifactId": "MarsProcessor",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "isProcessor": true
     }
   ]
